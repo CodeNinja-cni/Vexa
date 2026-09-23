@@ -1,0 +1,7 @@
+import Link from "next/link";
+
+import styles from "../marketing.module.css";
+
+export default function TermsPage() {
+  return <main className={styles.legal}><header className={styles.legalHeader}><Link className={styles.logo} href="/"><span>V</span><div><strong>vexa</strong><small>ATTENTION OS</small></div></Link><Link href="/">Return home</Link></header><article className={styles.legalArticle}><span>PILOT TERMS</span><h1>Use Vexa with clear expectations.</h1><p>These concise pilot terms describe the present product boundary and should receive legal review before commercial release.</p><section><h2>Pilot service</h2><p>Vexa is an early product intended for evaluation. Features, availability, and connector behavior may change while the product is being developed.</p></section><section><h2>Your responsibility</h2><p>Provide accurate account information, protect your credentials, connect only sources you are authorized to access, and review every proposed action before approval.</p></section><section><h2>Automated output</h2><p>Vexa can rank, summarize, retrieve, and prepare suggestions from available evidence. Outputs may be incomplete and must not replace professional, legal, medical, or financial judgment.</p></section><section><h2>Current execution boundary</h2><p>The pilot records approvals but does not send Gmail messages or write Calendar events. Any future external execution must remain payload-scoped, auditable, and explicitly enabled.</p></section></article></main>;
+}

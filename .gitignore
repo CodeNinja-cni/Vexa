@@ -1,0 +1,31 @@
+# dependencies
+/node_modules
+
+# Next.js
+/.next
+/out
+/next-env.d.ts
+/.vercel
+
+# test output
+/coverage
+
+# local configuration and secrets
+.env
+.env.local
+.env.*.local
+
+# operating system and editor files
+.DS_Store
+*.swp
+*.tsbuildinfo
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# generated document QA output
+/.docx-qa
+.env*
