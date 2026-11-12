@@ -29,3 +29,8 @@ pnpm-debug.log*
 # generated document QA output
 /.docx-qa
 .env*
+
+#service account
+.env
+.venv/
+service_account.json
